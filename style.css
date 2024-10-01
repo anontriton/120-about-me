@@ -1,5 +1,3 @@
-
-/* header and body styling */   
 h1 {
     color: red;
     font-family: "Space Grotesk", sans-serif;
@@ -17,6 +15,7 @@ body {
     font-family: "Manrope", sans-serif;
     width: 67%;
     margin: 0 auto;
+    background-color: beige;
 }
 
 /* recent trip paragraph styling */
@@ -57,14 +56,16 @@ body {
     clear: both;
     margin-block: 20px;
     border-collapse: collapse;
-    tr:nth-child(odd) {
-        background-color: #f2f2f2;
-    }
-    th, td {
-        padding: 8px;
-        text-align: center;
-        border: 1px solid black;
-    }
+}
+
+.favorite-books table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.favorite-books th, .favorite-books td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
 }
 
 .favorite-books table img {
